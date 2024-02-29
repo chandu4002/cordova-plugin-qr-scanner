@@ -40,8 +40,8 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="10dp"
                 android:textSize="14sp"
-                tools:text="Point your phone to the QR code to scan it"
-                tools:textColor="#ffffff" />
+                android:text="Point your phone to the QR code to scan it"
+                android:textColor="#ffffff" />
 
         <RelativeLayout
                 android:id="@+id/walkthrough_scan_image_layout"
