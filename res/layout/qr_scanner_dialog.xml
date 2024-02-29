@@ -18,7 +18,7 @@
             android:theme="@style/Widget.AppCompat.Toolbar"
             app:navigationIcon="@drawable/ic_action_arrow_left"
             app:title="@string/app_name"
-            app:titleTextColor="@android:color/black"
+            app:titleTextColor="@android:color/white"
             app:navigationContentDescription="Back" />
 
     <LinearLayout
