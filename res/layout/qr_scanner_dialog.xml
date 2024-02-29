@@ -18,7 +18,7 @@
             android:theme="@style/Widget.AppCompat.Toolbar"
             app:navigationIcon="@drawable/ic_action_arrow_left"
             app:title="@string/app_name"
-            app:titleTextColor="@android:color/white"
+            app:titleTextColor="@android:color/black"
             app:navigationContentDescription="Back" />
 
     <LinearLayout
@@ -40,8 +40,8 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="10dp"
                 android:textSize="14sp"
-                android:text="Point your phone to the QR code to scan it"
-                android:textColor="#ffffff" />
+                tools:text="Point your phone to the QR code to scan it"
+                tools:textColor="#0b0b0b" />
 
         <RelativeLayout
                 android:id="@+id/walkthrough_scan_image_layout"
