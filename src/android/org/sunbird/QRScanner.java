@@ -169,7 +169,7 @@ public class QRScanner extends CordovaPlugin {
                 if (themeSelected.equalsIgnoreCase("JOYFUL")) {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         Objects.requireNonNull(mScanDialog.getWindow()).addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-                        mScanDialog.getWindow().setStatusBarColor(Color.parseColor("#FFD954"));
+                        mScanDialog.getWindow().setStatusBarColor(Color.parseColor("#FF9583"));
                     }
                 }
 
