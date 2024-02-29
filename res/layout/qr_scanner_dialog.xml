@@ -41,7 +41,7 @@
                 android:paddingBottom="10dp"
                 android:textSize="14sp"
                 tools:text="Point your phone to the QR code to scan it"
-                tools:textColor="#0b0b0b" />
+                tools:textColor="white" />
 
         <RelativeLayout
                 android:id="@+id/walkthrough_scan_image_layout"
